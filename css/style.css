@@ -3,27 +3,22 @@
   margin: 0;
   padding: 0;
 }
-html,
-body {
-  height: 100vh;
-}
 
 body {
-  background: #f4f4f4;
-}
-img {
-  display: block;
-  margin: auto;
-  max-height: 100%;
-}
-i {
-  color: #333;
-  font-size: 34px;
+  position: relative;
+  background: url("../images/under_construction.jpg") no-repeat center center /
+    cover;
+  height: 100vh;
 }
 .flex-container {
+  position: absolute;
+  top: 2.5vmin;
+  left: 50%;
+  transform: translate(-50%, 0);
   display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+  gap: 8vw;
+}
+.flex-container i {
+  color: #f4f4f4;
+  font-size: 7vmin;
 }
