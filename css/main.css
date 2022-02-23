@@ -6,10 +6,10 @@
 
 body {
   position: relative;
-  background: url("../images/under_construction.jpg") no-repeat center center /
-    cover;
+  background: url("../images/under_construction.jpg") no-repeat center center/cover;
   height: 100vh;
 }
+
 .flex-container {
   position: absolute;
   top: 2.5vmin;
@@ -18,6 +18,7 @@ body {
   display: flex;
   gap: 8vw;
 }
+
 .flex-container i {
   color: #f4f4f4;
   font-size: 7vmin;
