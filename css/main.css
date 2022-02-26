@@ -5,9 +5,9 @@
 }
 
 body {
-  position: relative;
   background: url("../images/under_construction.jpg") no-repeat center center/cover;
   height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 .flex-container {
